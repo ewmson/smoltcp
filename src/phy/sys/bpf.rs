@@ -37,7 +37,7 @@ const BIOCGBLEN: libc::c_ulong = 0x40044266;
 const BIOCIMMEDIATE: libc::c_ulong = 0x80044270;
 /// set bpf_hdr struct size
 // #[cfg(any(target_os = "macos", target_os = "ios", target_os = "netbsd"))]
-const SIZEOF_BPF_HDR: usize = 18;
+//const SIZEOF_BPF_HDR: usize = 18;
 /// set bpf_hdr struct size
 // #[cfg(target_os = "openbsd", target_os = "freebsd")]
 const SIZEOF_BPF_HDR: usize = 24;
